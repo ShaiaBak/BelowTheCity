@@ -12,3 +12,10 @@ w_key = keyboard_check(ord('W'));
 //down
 down_key = keyboard_check(vk_down); 
 s_key = keyboard_check(ord('S'));
+// dash 
+dash_key = keyboard_check_pressed(vk_space);
+
+// get the axis
+xaxis = (right_key - left_key);
+yaxis =  (down_key - up_key);
+
