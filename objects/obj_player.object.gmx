@@ -31,8 +31,11 @@ phy_fixed_rotation = true;      // Set Fixed Rotation
 sprite_index = spr_player_down;
 xaxis = 0;
 yaxis = 0;
-spd = 4;                        // movement speed
+spd = 3;                        // movement speed
+hspd = 0;
+vspd = 0;
 dir = 0;                        // direction variable
+len = 0;
 idle_img_speed = 0;             // image will have animation speed of 0
 movment_img_speed = 0.2;        // image speed when moving
 scr_get_input();                // get input script
